@@ -1,5 +1,5 @@
 {
-  "name": "social-post-approval",
+  "name": "electrical-caption-approver",
   "version": "1.0.0",
   "main": "server.js",
   "type": "module",
@@ -7,12 +7,12 @@
     "start": "node server.js"
   },
   "dependencies": {
-    "express": "^4.18.2",
-    "sqlite3": "^5.1.6",
-    "dotenv": "^16.3.1",
-   "multer": "1.4.5-lts.1",
-    "cloudinary": "^1.37.2",
-    "openai": "^4.0.0",
-    "nodemailer": "^6.9.8"
+    "express": "4.18.2",
+    "express-session": "1.17.3",
+    "multer": "1.4.5-lts.1",
+    "sqlite3": "5.1.6",
+    "nodemailer": "6.9.8",
+    "cloudinary": "1.41.0",
+    "dotenv": "16.4.1"
   }
 }
