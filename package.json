@@ -1,0 +1,19 @@
+{
+  "name": "social-post-approval",
+  "version": "1.0.0",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "cloudinary": "^1.41.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "multer": "^1.4.5-lts.1",
+    "nodemailer": "^6.9.4",
+    "openai": "^4.0.0",
+    "sqlite3": "^5.1.6"
+  }
+}
